@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: 'Malibu', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      position: relative;
+      background: linear-gradient(to right, #4B8CC8,  #606060);
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 1em;
+      margin: 0 1em;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff69b4;
+    }
+
+    section {
+      padding: 5em 2em;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+    }
+
+    .about-text,
+    .skills-text,
+    .projects-text,
+    .contact-text {
+      flex: 1;
+      max-width: 60%;
+      text-align: left;
+    }
+
+    .image-container {
+      position: absolute;
+      top: 50%;
+      right: 2em;
+      transform: translateY(-50%);
+      max-width: 20%;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 45px;
+      text-overflow: clip;
+      margin-bottom: 1em;
+    }
+
+    h2 {
+      font-size: 40px;
+      margin-bottom: 1em;
+    }
+
+    h3 {
+      font-size: 25px;
+      margin-bottom: 1em;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: left;
+    }
+
+    li {
+      margin-bottom: 0.5em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <section id="about">
+    <div class="about-text">
+      <h1>Usenathi Manina</h1>
+      <h3>Information Technology Graduand</h3>
+      <p>
+        My educational venture has been a hands-on exploration of programming languages and robust software development
+        methodologies.
+
+        <p>In the realm of programming languages, I've delved into the intricacies of Java, mastering its syntax and
+          leveraging its object-oriented capabilities to create robust and scalable applications. My experiences with Java
+          have included crafting applications that showcase not only technical proficiency but also an understanding of
+          best practices in software design. </p>
+
+        <p>JavaScript has been another cornerstone of my learning journey, and I've applied it extensively to enhance the
+          interactivity and user experience of web applications. From dynamic front-end development to asynchronous
+          server-side operations, my expertise in JavaScript extends across various dimensions of modern web development.
+        </p>
+
+        <p>C# has been a fascinating exploration, offering insights into the world of Microsoft technologies. My coursework
+          involved creating applications within the .NET framework, honing my skills in building Windows applications and
+          web services.</p>
+
+        <p>SQL has been a powerful tool in my arsenal, enabling me to design and manage databases effectively. My
+          proficiency in crafting complex queries ensures efficient data retrieval and management, crucial for the success
+          of any data-driven application.</p>
+
+        <p>In the realm of software development methodologies, I've actively engaged with Agile practices. Coursework and
+          practical projects have exposed me to the iterative and collaborative nature of Agile development. I've
+          participated in simulated sprints, collaborated with team members, and adapted to changing project requirements,
+          all within the Agile framework.</p>
+
+        <p>This practical exposure to Agile methodologies has not only equipped me with the technical skills required for
+          software development but has also instilled in me the importance of adaptability, collaboration, and delivering
+          value in incremental stages.</p>
+
+    </div>
+
+    <div class="image-container">
+      <img src="pro.jpg" alt="Profile Image">
+    </div>
+  </section>
+
+  <section id="skills" class="skills-text">
+    <h2>Skills</h2>
+    <ul>
+      <li>Google Workspace</li>
+      <li>Problem Solving</li>
+      <li>Communication Skills</li>
+      <li>Teamwork</li>
+      <li>Critical Thinking</li>
+      <li>Creativity</li>
+      <li>Analytical Design and Development</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects-text">
+    <h2>Projects</h2>
+    <p>
+      https://github.com/Usenathi19/Academic-Project
+    </p>
+  </section>
+
+  <section id="contact" class="contact-text">
+    <h2>Contact</h2>
+    <p>Email: usenathimanina@gmail.com</p>
+  </section>
+
+  <footer>
+    &copy; 2023 Usenathi Manina.
+  </footer>
+</body>
+
+</html>
