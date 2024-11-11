@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usenathi Manina</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMI/5EIT8RHDydEJeIB+zJE5u7Q2bX90Qdd6I7P" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header> 
+        
+        <button class="menu-btn" onclick="toogleMenu()">☰</button>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="logo">Usenathi.</div>
+    </header>
+
+    <!-- Home Section -->
+  <section class="home" id="home">
+        <div class="home-img">
+            <img src="Images/headshot.png" alt="Usenathi Manina">
+        </div>
+        <div class="home-content">
+            <h1>Hello, I'm Usenathi Manina</h1>
+            <h3>Software developer</h3>
+            <p>I'm a software developer focused on creating user-centered digital experiences. With a background in IT and a passion for backend development, I build high-performance applications that solve real-world challenges and drive innovation.</p>
+            <a href="Images/ResumeManina.pdf" class="btn" download="ResumeManina.pdf">Download Resume</a>
+            </div>
+        <div class="home-social-icons">
+                <a href="https://www.linkedin.com/in/usenathi-manina-29792322a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Usenathi19" target="_blank"><i class="fab fa-github"></i></a>
+       </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="Images/user.jpg" alt="About Me Image">
+            </div>
+            <div class="about-text">
+                <p>I'm passionate about creating impactful, user-centered digital experiences. With a strong academic background in software development and a commitment to continuous learning, I build high-performance applications that solve real-world problems and drive innovation.</p>
+
+<ul>
+    <li><strong>Skills:</strong> Java, JavaScript, C#, SQL, Visual Basic</li>
+    <li><strong>Education:</strong> Diploma in IT from Damelin</li>
+    <li><strong>Experience:</strong> Full stack developer intern at Crayon <br> Backend Developer Candidate at CapaCiti</li>
+</ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h1>My Services</h1>
+        <div class="services-container">
+            <div class="service-box">
+                <h2>Web Development</h2>
+                <p>Building fast, responsive, and engaging websites using modern technologies.</p>
+            </div>
+            <div class="service-box">
+                <h2>UI/UX Design</h2>
+                <p>Designing user-friendly interfaces with a focus on usability and aesthetics.</p>
+            </div>
+            <div class="service-box">
+                <h2>Backend Development</h2>
+                <p>Experienced in Java and database management for efficient backend systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h1>Portfolio</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <a href="https://github.com/Usenathi19/Academic-Project.git" target="_blank">
+                    <img src="Images/bhop.png" alt="Portfolio Item 1">
+                    <div class="description">Transport System </div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://github.com/Usenathi19/AssignmentCrayon.git" target="_blank">
+                    <img src="Images/cms.jpg" alt="Portfolio Item 2">
+                    <div class="description">Client Management System</div>
+                </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="https://github.com/Usenathi19/Calc.git" target="_blank">
+                    <img src="Images/calc.jpg" alt="Portfolio Item 3">
+                    <div class="description">Calculator</div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="your-form-handler-url" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
